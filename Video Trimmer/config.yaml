@@ -1,0 +1,14 @@
+defaults:
+    - override hydra/hydra_logging: disabled
+    - override hydra/job_logging: disabled
+
+hydra:
+    output_subdir: null
+    run:
+        dir: .
+
+# change here
+path: "C:\\path\\to\\video.mp4"
+# hh:mm:ss
+start: "00:00:00"
+end: "00:00:30"
